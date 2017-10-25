@@ -1,0 +1,17 @@
+ul li a{
+    font-weight: bolder;
+    color: white;
+}
+
+.color-dark{
+     background-color: #14cba8;
+}
+
+.imagem{
+    width: 20%;
+    height: 20%;
+}
+
+h2{
+    font-weight: bolder;
+}
