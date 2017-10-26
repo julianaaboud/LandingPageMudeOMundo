@@ -1,5 +1,6 @@
 ul li a{
     font-weight: bolder;
+    font-size: 20px;
     color: white;
 }
 
@@ -7,11 +8,114 @@ ul li a{
      background-color: #14cba8;
 }
 
+header{
+    margin-bottom: 10px;
+}
+
+.tamanho-nav{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
 .imagem{
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+}
+
+.mapa{
+    margin-top: 20px;
+    width: 50%;
+    height: 30%;
+}
+
+.texto-home{
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+h2, h3, h4{
+    font-weight: bolder;
+}
+
+.imagem-play{
+    max-width: 10%;
+    margin-left: 5%;
 }
 
 h2{
-    font-weight: bolder;
+    font-size: 40px;
 }
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.texto-box{
+    font-size: 25px;
+}
+
+.home{
+    background-color: #64ffda;
+    margin: 5px;
+}
+
+*{
+    font-family: 'Bree Serif', serif;
+}
+
+.comoColaborar{
+    background-color: #BBDEFB;
+    height: 400px;
+}
+
+#ONGs{
+   background-color: #FFE0B2;
+   height: 400px;
+}
+
+#acoesVoluntarias{
+   background-color: #FFCCBC;
+   height: 400px;
+}
+
+#contato{
+    background-color: #D1C4E9;
+    height: 275px;
+}
+
+body{
+    margin: 30px;
+}
+
+.tamanho-botao{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#acoesVoluntarias button{
+    margin: 10px;
+    font-size: 25px;
+}
+
+  @media screen and (max-width:768px){
+      .tamanho-botao{
+        width: 150px;
+      }
+      #acoesVoluntarias button{
+          font-size: 20px;
+      }
+      #acoesVoluntarias{
+          height: 1150px;
+      }
+  }
+
+
+
