@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/img/logo.jpg">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>Mude o Mundo</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="navbar-header container">
+        <nav class="navbar navbar-default navbar-fixed-top nav-centro">
+            <div class="navbar-header container text-center centro ">
                 <img id="logo" src="assets/img/logo.jpg" alt="Logo Mude o Mundo">
                 <button class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#menu"></button>
 
-                <ul id=menu class="nav navbar-nav navbar-right collapse navbar-collapse centro">
+                <ul id="menu" class="nav navbar-nav navbar-right collapse navbar-collapse ">
                     <li>
                         <a href="#comoColaborar">Como colaborar?</a>
                     </li>
@@ -35,73 +36,85 @@
             </div>
         </nav>
     </header>
-    <section class="home">
-        <div class="home-figura col-md-6"></div>
-        <div class="texto-home">
-            <h2>O aplicativo Mude O Mundo te ajuda a contribuir para um mundo melhor! </h2>
-            <h3>Diversas áreas e diferentes contribuições podem ser dadas para melhorar o mundo de alguma forma! Descubra como,
-                baixe o app e Mude o Mundo!</h3>
+    <section class="content">
+        <section class="home container">
+            <div class="col-md-6">
+                <img class="home-figura" src="assets/img/smartphone.png" alt="Smartphone">
+            </div>
+            <div class="texto-home col-md-6">
+                <h2>O aplicativo Mude O Mundo te ajuda a contribuir para um mundo melhor! </h2>
+                <h3>Diversas áreas e diferentes contribuições podem ser dadas para melhorar o mundo de alguma forma! Descubra
+                    como, baixe o app e Mude o Mundo!</h3>
                 <img class="imagem-play" src="assets/img/googleplay.png" alt="Google Play">
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <section id="comoColaborar">
-
-        <div class="comoColaborar">
+        <section id="comoColaborar" class="container">
             <h2>Como Colaborar?</h2>
-            <h4>O aplicativo proporciona uma diversidade de opções de ongs e ações colaborativas para que você escolha o que
-                mais te engaja. Os usuários logados podem inserir ongs (que são validadas pelo CNPJ) e ações voluntárias
-                no app!</h4>
-                <img class="imagem-radio" src="assets/img/ong.jpg" alt="">
-                <img class="imagem-radio" src="assets/img/acaovoluntaria.png" alt="">
-        </div>
-      
-
-    </section>
-    <section id="ONGs">
-        <h2>ONGs</h2>
-        <div class="col-md-6 col-xs-12">
-            <h4>As organizações não governamentais pode ser achadas por geolocalização ou por nome. Veja as melhores avaliadas
-                pois isto demonstra que pessoas já fizeram parte e gostaram, aumentando o nível de confiança e idoneidade.</h4>
-        </div>
-        <div class="col-md-6 col-xs-12">
-            <img class="mapa" src="assets/img/ong-mapa.jpg" alt="Mapa com marcações">
-        </div>
-    </section>
-    <section id="acoesVoluntarias">
-        <h2>Ações Voluntárias</h2>
-        <h4>As ações voluntárias podem ser filtradas por causas. Veja algumas delas:</h4>
-        <div class="container">
-            <button type="button" class="tamanho-botao  btn-primary">Refugiado</button>
-            <button type="button" class="tamanho-botao  btn-success">Criança</button>
-            <button type="button" class="tamanho-botao  btn-info">Idoso</button>
-            <button type="button" class="tamanho-botao  btn-warning">Animal</button>
-            <button type="button" class="tamanho-botao  btn-danger">Meio Ambiente</button>
-        </div>
-
-    </section>
-    <section id="contato">
-        <h2>Entre em contato</h2>
-        <form>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email">
+                <img class="icones col-md-3" src="assets/img/heart.png" alt="">
+                <p class="col-md-3 margin">Inserindo ou participando de ações voluntárias. As ações podem ou não estar vinculadas à organizações não governamentais. Estão definidas por causas separadamente. </p>
+                <img class="icones col-md-3" src="assets/img/house.png" alt="">
+                <p class="col-md-3 margin">Inserindo ou participando de organizações não governamentais.</p>
+        </section>
+        <section id="ONGs" class="container">
+            <h2>ONGs</h2>
+            <div class="col-md-6 col-xs-12">
+                <h4>As organizações não governamentais podem ser encontradas por geolocalização ou por nome. Veja as melhores avaliadas
+                    pois isto demonstra que pessoas já fizeram parte e gostaram, aumentando o nível de confiança e idoneidade.</h4>
             </div>
-            <div class="form-group">
-                <label>Mensagem:</label>
-                <input type="text-area" class="form-control" id="text-area">
+            <div class="col-md-6 col-xs-12">
+                <img class="mapa" src="assets/img/ong-mapa.jpg" alt="Mapa com marcações">
             </div>
-            <button type="submit" class="btn btn-default">Enviar</button>
-        </form>
+        </section>
+        <section id="acoesVoluntarias" class="container">
+            <h2>Ações Voluntárias</h2>
+            <h4>As ações voluntárias podem ser filtradas por causas. Veja algumas delas:</h4>
+            <div class="container">
+                <button type="button" class="tamanho-botao  btn-primary">Refugiado</button>
+                <button type="button" class="tamanho-botao  btn-success">Criança</button>
+                <button type="button" class="tamanho-botao  btn-info">Idoso</button>
+                <button type="button" class="tamanho-botao  btn-warning">Animal</button>
+                <button type="button" class="tamanho-botao  btn-danger">Meio Ambiente</button>
+            </div>
+
+        </section>
+        <section id="contato" class="container">
+            <h2>Entre em contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label>Mensagem:</label>
+                    <input type="text-area" class="form-control" id="text-area" required>
+                </div>
+                <button type="submit" class="btn btn-default">Enviar</button>
+            </form>
+        </section>
+
+        <section id="footer">
+            <footer class="text-center color-dark">
+                <p>Mude o Mundo</p>
+                <p>Projeto sem fins lucrativos</p>
+                <p>Made with
+                    <3 by <a href="mailto:juliana.aboud@gmail.com" target="_blank">Juliana Aboud </a> 2017 </p>
+            </footer>
+        </section>
     </section>
-    <section id="footer">
-        <footer class="text-center color-dark">
-            <p>Mude o Mundo</p>
-            <p>Projeto sem fins lucrativos</p>
-            <p>Made with
-                <3 by <a href="mailto:juliana.aboud@gmail.com" target="_blank">Juliana Aboud </a> 2017 </p>
-        </footer>
-    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+        var $doc = $('html, body');
+        $('a').click(function () {
+            $doc.animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 1000);
+            return false;
+
+        });
+    </script>
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>

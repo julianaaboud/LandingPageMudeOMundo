@@ -1,6 +1,6 @@
 ul li a{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 
@@ -12,6 +12,19 @@ header{
     height: 24px;
     display: flex;
     align-items: center;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+}
+
+.margin{
+    margin-top: 100px;
+}
+
+.nav-centro{
+    padding-left: 600px;
 }
 
 .imagem{
@@ -27,37 +40,29 @@ header{
 }
 
 .texto-home{
-    font-size: 20px;
-    margin-top: 130px;
+    font-size: 110px;
+    margin-top: 330px;
     color: black;
     text-align: center;
-    
+    padding-right: 70px;
+    font-weight: bolder;
+   
 }
 
 h2, h3, h4{
     font-weight: bolder;
 }
 
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .imagem-play{
-    max-width: 15%;
+    max-width: 50%;
     margin-left: 5%;
    margin-right: 130px;
 }
 
-h2{
-    font-size: 40px;
-    padding-top: 70px;
-    padding-right: 70px;
-}
-
-h3{
-    font-size: 30px;
-    padding-right: 70px;
-}
-
-h4{
-    font-size: 20px;
-}
 
 #logo{
     height: 10%;
@@ -72,19 +77,20 @@ h4{
 }
 
 .home{
+    min-height: 400px;
+    background-color: white;
+    display: flex;
 
-    margin: auto 0;
-    color: white;
-    height: 500px;
-    background-color: #64ffa5;
 }
 
 .home-figura{
-    background: url("../img/stock-vector.png");
+    background: url("../img/smartphone.png");
     background-repeat: no-repeat;
-    height: 500px;
     margin-left: 30px;
     margin-top: 30px;
+    width: 78%;
+    max-height: 100%;
+    background-size: cover;
 }
 
 .imagem-radio{
@@ -96,28 +102,34 @@ h4{
     font-family: 'Bree Serif', serif;
 }
 
-.comoColaborar{
-    background-color: #BBDEFB;
-    height: 400px;
+#comoColaborar{
+    height: 400px; 
+    background-color: white;
 }
 
 #ONGs{
-   background-color: #FFE0B2;
    height: 400px;
+   background-color: white;
+   opacity: 1;
 }
 
 #acoesVoluntarias{
-   background-color: #FFCCBC;
    height: 400px;
+   background-color: white;
 }
 
 #contato{
-    background-color: #D1C4E9;
     height: 275px;
+    background-color: white;
 }
 
 body{
     margin: 30px;
+}
+
+.content{
+    background: url("../img/icones.png");
+    padding: 58px;
 }
 
 .tamanho-botao{
@@ -147,4 +159,11 @@ body{
       background-color: white;
   }
 
+footer{
+    padding-top: 50px;
+    background-color: white;
+}
 
+.icones{
+    height: 80%;
+}
