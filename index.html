@@ -38,10 +38,10 @@
     </header>
     <section class="content">
         <section class="home container">
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-12 home-smartphone">
                 <img class="home-figura" src="assets/img/smartphone.png" alt="Smartphone">
             </div>
-            <div class="texto-home col-md-6">
+            <div class="texto-home col-md-6 col-xs-12">
                 <h2>O aplicativo Mude O Mundo te ajuda a contribuir para um mundo melhor! </h2>
                 <h3>Diversas áreas e diferentes contribuições podem ser dadas para melhorar o mundo de alguma forma! Descubra
                     como, baixe o app e Mude o Mundo!</h3>
@@ -50,20 +50,26 @@
         </section>
 
         <section id="comoColaborar" class="container">
-            <h2>Como Colaborar?</h2>
-                <img class="icones col-md-3" src="assets/img/heart.png" alt="">
-                <p class="col-md-3 margin">Inserindo ou participando de ações voluntárias. As ações podem ou não estar vinculadas à organizações não governamentais. Estão definidas por causas separadamente. </p>
-                <img class="icones col-md-3" src="assets/img/house.png" alt="">
-                <p class="col-md-3 margin">Inserindo ou participando de organizações não governamentais.</p>
+            <div class="row">
+                <h2>Como Colaborar?</h2>
+                <img class="icones col-md-3 col-xs-12" src="assets/img/heart.png" alt="">
+                <p class="col-md-3 col-xs-12 margin">Inserindo ou participando de ações voluntárias. As ações podem ou não estar vinculadas à organizações não
+                    governamentais. Estão definidas por causas separadamente. </p>
+                <img class="icones col-md-3 col-xs-12" src="assets/img/house.png" alt="">
+                <p class="col-md-3 col-xs-12 margin">Inserindo ou participando de organizações não governamentais.</p>
+            </div>
         </section>
         <section id="ONGs" class="container">
-            <h2>ONGs</h2>
-            <div class="col-md-6 col-xs-12">
-                <h4>As organizações não governamentais podem ser encontradas por geolocalização ou por nome. Veja as melhores avaliadas
-                    pois isto demonstra que pessoas já fizeram parte e gostaram, aumentando o nível de confiança e idoneidade.</h4>
-            </div>
-            <div class="col-md-6 col-xs-12">
-                <img class="mapa" src="assets/img/ong-mapa.jpg" alt="Mapa com marcações">
+            <div class="row">
+                <h2>ONGs</h2>
+                <div class="col-md-6 col-xs-12">
+                    <h4>As organizações não governamentais podem ser encontradas por geolocalização ou por nome. Veja as melhores
+                        avaliadas pois isto demonstra que pessoas já fizeram parte e gostaram, aumentando o nível de confiança
+                        e idoneidade.</h4>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <img class="mapa" src="assets/img/ong-mapa.jpg" alt="Mapa com marcações">
+                </div>
             </div>
         </section>
         <section id="acoesVoluntarias" class="container">
@@ -78,19 +84,27 @@
             </div>
 
         </section>
-        <section id="contato" class="container">
-            <h2>Entre em contato</h2>
-            <form>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" required>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2>Entre em contato</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Mensagem:</label>
+                            <input type="text-area" class="form-control" id="text-area" required>
+                        </div>
+                        <button type="submit" class="btn btn-success botao">Enviar</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label>Mensagem:</label>
-                    <input type="text-area" class="form-control" id="text-area" required>
-                </div>
-                <button type="submit" class="btn btn-default">Enviar</button>
-            </form>
+            </div>
         </section>
 
         <section id="footer">

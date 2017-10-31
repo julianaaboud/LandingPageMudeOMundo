@@ -25,7 +25,7 @@ header{
 
 .nav-centro{
     padding-left: 600px;
-}
+} 
 
 .imagem{
     width: 15%;
@@ -35,7 +35,7 @@ header{
 
 .mapa{
     margin-top: 20px;
-    width: 50%;
+    width: 70%;
     height: 30%;
 }
 
@@ -46,7 +46,6 @@ header{
     text-align: center;
     padding-right: 70px;
     font-weight: bolder;
-   
 }
 
 h2, h3, h4{
@@ -80,17 +79,11 @@ h3{
     min-height: 400px;
     background-color: white;
     display: flex;
-
 }
 
 .home-figura{
-    background: url("../img/smartphone.png");
-    background-repeat: no-repeat;
-    margin-left: 30px;
-    margin-top: 30px;
     width: 78%;
-    max-height: 100%;
-    background-size: cover;
+    max-height: 250%;
 }
 
 .imagem-radio{
@@ -123,6 +116,7 @@ h3{
     background-color: white;
 }
 
+
 body{
     margin: 30px;
 }
@@ -151,8 +145,82 @@ body{
           font-size: 20px;
       }
       #acoesVoluntarias{
-          height: 1150px;
+          min-height: 900px;
       }
+      .nav-centro{
+        padding-left: 0px;
+    } 
+    .home-figura{
+    
+        background-repeat: no-repeat;
+        width: 120%;
+        max-height: 70%;
+        align-items: center;
+        padding-right: 20px;
+        background-size: cover;
+    }
+
+    .texto-home{
+        margin-top: 0;
+        color: black;
+        font-weight: bolder;
+        padding: 0;
+        width: 100%;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .home{
+        min-height: 200px;
+        display: block;
+    }
+    .icones{
+        height: 30%;
+    }
+
+    .margin{
+        margin-top: 0;
+    }
+
+    .imagem-play{
+        max-width: 100%;
+        margin-left: 0px;
+       margin-right: 0px;
+    }
+    .content{
+        background: url("../img/icones.png");
+        padding: 30px;
+    }
+    .tamanho-botao{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .mapa{
+        margin-top: 20px;
+        width: 90%;
+        height: 50%;
+    }
+  
+    
+  }
+
+  @media screen and (max-width: 1600px) and (min-width: 768px){
+    .nav-centro{
+        padding-left: 300px;
+    } 
+    .tamanho-botao{
+        width: 150px;
+        height: 100px;
+        margin: 0 auto;
+    }
   }
 
   .row{
