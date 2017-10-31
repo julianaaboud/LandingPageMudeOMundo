@@ -1,3 +1,5 @@
+/*Header*/
+
 ul li a{
     font-weight: bolder;
     font-size: 25px;
@@ -14,18 +16,20 @@ header{
     align-items: center;
 }
 
+.nav-centro{
+    padding-left: 600px;
+} 
+
+/*Alinhamento*/
+
 .centro{
     display: flex;
     align-items: center;
 }
 
 .margin{
-    margin-top: 100px;
+    margin-top: 20px;
 }
-
-.nav-centro{
-    padding-left: 600px;
-} 
 
 .imagem{
     width: 15%;
@@ -35,13 +39,80 @@ header{
 
 .mapa{
     margin-top: 20px;
-    width: 70%;
-    height: 30%;
+    width: 100%;
+    height: 50%;
+}
+
+.imagem-play{
+    max-width: 50%;
+    margin-left: 27%;
+    margin-right: 130px;
+}
+
+
+#logo{
+    height: 10%;
+    width: 10%;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.home-figura{
+    margin-top: 30px;
+    width: 78%;
+    max-height: 270%;
+}
+
+.imagem-radio{
+    border-radius: 30%;
+    max-width: 300px;
+}
+
+.row{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+body{
+    margin: 30px;
+}
+
+.centralizando{
+    margin: 60px 20px 10px;
+}
+
+
+footer{
+    padding-top: 50px;
+    background-color: white;
+}
+
+.icones{
+        height: 80%;
+}
+
+.content{
+    background: url("../img/icones.png");
+    padding-right: 358px;
+    padding-left: 358px;
+    padding-top: 50px;
+}
+
+.tamanho-botao{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/*Fonte*/
+
+p{
+    font-size: 20px;
 }
 
 .texto-home{
     font-size: 110px;
-    margin-top: 330px;
     color: black;
     text-align: center;
     padding-right: 70px;
@@ -56,86 +127,48 @@ h3{
     font-family: 'Open Sans', sans-serif;
 }
 
-.imagem-play{
-    max-width: 50%;
-    margin-left: 5%;
-   margin-right: 130px;
+h2{
+    padding-top: 110px;
 }
-
-
-#logo{
-    height: 10%;
-    width: 10%;
-    align-items: center;
-    margin-left: 10px;
-}
-
 
 .texto-box{
     font-size: 25px;
-}
-
-.home{
-    min-height: 400px;
-    background-color: white;
-    display: flex;
-}
-
-.home-figura{
-    width: 78%;
-    max-height: 250%;
-}
-
-.imagem-radio{
-    border-radius: 30%;
-    max-width: 300px;
 }
 
 *{
     font-family: 'Bree Serif', serif;
 }
 
+/*sections*/
+
 #comoColaborar{
-    height: 400px; 
+    min-height: 400px; 
     background-color: white;
 }
 
 #ONGs{
-   height: 400px;
+   min-height: 400px;
    background-color: white;
    opacity: 1;
 }
 
 #acoesVoluntarias{
-   height: 400px;
+   min-height: 400px;
    background-color: white;
 }
 
 #contato{
-    height: 275px;
+    min-height: 350px;
     background-color: white;
-}
-
-
-body{
-    margin: 30px;
-}
-
-.content{
-    background: url("../img/icones.png");
-    padding: 58px;
-}
-
-.tamanho-botao{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
 }
 
 #acoesVoluntarias button{
     margin: 10px;
     font-size: 25px;
 }
+
+
+/* Responsividade */
 
   @media screen and (max-width:768px){
       .tamanho-botao{
@@ -145,72 +178,80 @@ body{
           font-size: 20px;
       }
       #acoesVoluntarias{
-          min-height: 900px;
+          min-height: 450px;
       }
       .nav-centro{
         padding-left: 0px;
-    } 
-    .home-figura{
-    
+      } 
+       .home-figura{
         background-repeat: no-repeat;
         width: 120%;
         max-height: 70%;
         align-items: center;
         padding-right: 20px;
         background-size: cover;
-    }
+        }
 
-    .texto-home{
+        .texto-home{
         margin-top: 0;
         color: black;
         font-weight: bolder;
         padding: 0;
         width: 100%;
+        }
+
+        h2{
+            font-size: 20px;
+            padding-top: 0px;
+        }
+
+        h3{
+            font-size: 15px;
+        }
+
+        .home{
+            min-height: 200px;
+            display: block;
+        }
+        .icones{
+            height: 30%;
+        }
+
+
+        .margin{
+            margin-top: 0;
+        }
+
+        .content{
+            background: url("../img/icones.png");
+            padding: 30px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        .tamanho-botao{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        .mapa{
+            margin-top: 40px;
+            width: 110%;
+            height: 50%;
+            margin-bottom: 40px;
+        }  
+        
+        p{
+            font-size: 15px;
+        }
+        .centralizando{
+            margin: 0;
+        }
     }
 
-    h2{
-        font-size: 20px;
-    }
-
-    h3{
-        font-size: 15px;
-    }
-
-    .home{
-        min-height: 200px;
-        display: block;
-    }
-    .icones{
-        height: 30%;
-    }
-
-    .margin{
-        margin-top: 0;
-    }
-
-    .imagem-play{
-        max-width: 100%;
-        margin-left: 0px;
-       margin-right: 0px;
-    }
-    .content{
-        background: url("../img/icones.png");
-        padding: 30px;
-    }
-    .tamanho-botao{
-        width: 100px;
-        height: 100px;
-        margin: 0 auto;
-    }
-
-    .mapa{
-        margin-top: 20px;
-        width: 90%;
-        height: 50%;
-    }
-  
-    
-  }
+  /* Responsividade */  
 
   @media screen and (max-width: 1600px) and (min-width: 768px){
     .nav-centro{
@@ -221,17 +262,16 @@ body{
         height: 100px;
         margin: 0 auto;
     }
-  }
+    .content{
+        background: url("../img/icones.png");
+        padding-left: 80px;
+        padding-top: 20px;  
+        padding-right: 160px;      
+    }
+    .row{
+         padding-right: 30px;
+    }
 
-  .row{
-      background-color: white;
-  }
+    }
 
-footer{
-    padding-top: 50px;
-    background-color: white;
-}
-
-.icones{
-    height: 80%;
-}
+  

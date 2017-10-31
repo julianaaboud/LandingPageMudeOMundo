@@ -13,6 +13,8 @@
 </head>
 
 <body>
+
+    <!--Início da Nav-->
     <header>
         <nav class="navbar navbar-default navbar-fixed-top nav-centro">
             <div class="navbar-header container text-center centro ">
@@ -36,54 +38,83 @@
             </div>
         </nav>
     </header>
+    <!--Fim da Nav-->
+
+
     <section class="content">
-        <section class="home container">
-            <div class="col-md-6 col-xs-12 home-smartphone">
-                <img class="home-figura" src="assets/img/smartphone.png" alt="Smartphone">
-            </div>
-            <div class="texto-home col-md-6 col-xs-12">
-                <h2>O aplicativo Mude O Mundo te ajuda a contribuir para um mundo melhor! </h2>
-                <h3>Diversas áreas e diferentes contribuições podem ser dadas para melhorar o mundo de alguma forma! Descubra
-                    como, baixe o app e Mude o Mundo!</h3>
-                <img class="imagem-play" src="assets/img/googleplay.png" alt="Google Play">
-            </div>
-        </section>
-
-        <section id="comoColaborar" class="container">
-            <div class="row">
-                <h2>Como Colaborar?</h2>
-                <img class="icones col-md-3 col-xs-12" src="assets/img/heart.png" alt="">
-                <p class="col-md-3 col-xs-12 margin">Inserindo ou participando de ações voluntárias. As ações podem ou não estar vinculadas à organizações não
-                    governamentais. Estão definidas por causas separadamente. </p>
-                <img class="icones col-md-3 col-xs-12" src="assets/img/house.png" alt="">
-                <p class="col-md-3 col-xs-12 margin">Inserindo ou participando de organizações não governamentais.</p>
-            </div>
-        </section>
-        <section id="ONGs" class="container">
-            <div class="row">
-                <h2>ONGs</h2>
-                <div class="col-md-6 col-xs-12">
-                    <h4>As organizações não governamentais podem ser encontradas por geolocalização ou por nome. Veja as melhores
-                        avaliadas pois isto demonstra que pessoas já fizeram parte e gostaram, aumentando o nível de confiança
-                        e idoneidade.</h4>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <img class="mapa" src="assets/img/ong-mapa.jpg" alt="Mapa com marcações">
-                </div>
-            </div>
-        </section>
-        <section id="acoesVoluntarias" class="container">
-            <h2>Ações Voluntárias</h2>
-            <h4>As ações voluntárias podem ser filtradas por causas. Veja algumas delas:</h4>
+        <!--Início da Home-->
+        <section>
             <div class="container">
-                <button type="button" class="tamanho-botao  btn-primary">Refugiado</button>
-                <button type="button" class="tamanho-botao  btn-success">Criança</button>
-                <button type="button" class="tamanho-botao  btn-info">Idoso</button>
-                <button type="button" class="tamanho-botao  btn-warning">Animal</button>
-                <button type="button" class="tamanho-botao  btn-danger">Meio Ambiente</button>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12 home-smartphone">
+                        <img class="home-figura" src="assets/img/smartphone.png" alt="Smartphone">
+                    </div>
+                    <div class="texto-home col-md-6 col-xs-12">
+                        <h2>O aplicativo Mude O Mundo te ajuda a contribuir para um mundo melhor! </h2>
+                        <h3>Diversas áreas e diferentes contribuições podem ser dadas para melhorar o mundo de alguma forma!
+                            Descubra como, baixe o app e Mude o Mundo!</h3>
+                        <img class="imagem-play" src="assets/img/googleplay.png" alt="Google Play">
+                    </div>
+                </div>
             </div>
-
         </section>
+        <!--Fim da Home-->
+
+        <!--Início da sessão Como Colaborar-->
+        <section id="comoColaborar">
+            <div class="container">
+                <div class="row">
+                    <h2>Como Colaborar?</h2>
+                    <img class="icones col-md-3 col-xs-12" src="assets/img/heart.png" alt="">
+                    <p class="col-md-3 col-xs-12 margin">Inserindo ou participando de ações voluntárias. As ações podem ou não estar vinculadas à organizações
+                        não governamentais. As ações podem ser identificadas através das causas, exemplo: Causa animal, empoderamento,
+                        feminino, etc.</p>
+                    <img class="icones col-md-3 col-xs-12" src="assets/img/house.png" alt="">
+                    <p class="col-md-3 col-xs-12 margin">Inserindo ou participando de organizações não governamentais através do serviço voluntário.</p>
+                </div>
+            </div>
+        </section>
+        <!--Fim da sessão Como Colaborar-->
+
+        <!--Início da sessão ONGs-->
+        <section id="ONGs">
+            <div class="container">
+                <div class="row">
+                    <h2>ONGs</h2>
+                    <div class="col-md-offset-2 col-md-5 col-xs-12 ">
+                        <p class="centralizando">As organizações não governamentais podem ser encontradas por geolocalização ou por nome. Busque as
+                            melhores avaliadas pois isto demonstra que pessoas já fizeram parte e gostaram, aumentando o
+                            nível de confiança e idoneidade da instituição.</p>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <img class="mapa" src="assets/img/ong-mapa.jpg" alt="Mapa com marcações">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim da sessão ONGs-->
+
+        <!--Início da sessão Ações Voluntárias-->
+        <section id="acoesVoluntarias">
+            <div class="container">
+                <div class="row">
+                    <h2>Ações Voluntárias</h2>
+
+                    <p>As ações voluntárias podem ser filtradas por causas. Veja algumas delas:</p>
+                </div>
+
+                <div class="container">
+                    <button type="button" class="tamanho-botao  btn-primary">Refugiado</button>
+                    <button type="button" class="tamanho-botao  btn-success">Criança</button>
+                    <button type="button" class="tamanho-botao  btn-info">Idoso</button>
+                    <button type="button" class="tamanho-botao  btn-warning">Animal</button>
+                    <button type="button" class="tamanho-botao  btn-danger">Meio Ambiente</button>
+                </div>
+            </div>
+        </section>
+        <!--Fim da sessão Ações Voluntárias-->
+
+        <!--Início da sessão Contato-->
         <section id="contato">
             <div class="container">
                 <div class="row">
@@ -106,30 +137,23 @@
                 </div>
             </div>
         </section>
+        <!--Fim da sessão Contato-->
 
-        <section id="footer">
-            <footer class="text-center color-dark">
-                <p>Mude o Mundo</p>
-                <p>Projeto sem fins lucrativos</p>
-                <p>Made with
-                    <3 by <a href="mailto:juliana.aboud@gmail.com" target="_blank">Juliana Aboud </a> 2017 </p>
-            </footer>
-        </section>
-    </section>
+    </section> <!--Fim do content-->
 
+    <!--Início do Footer-->
+    <footer class="text-center color-dark">
+        <p>Mude o Mundo</p>
+        <p>Projeto sem fins lucrativos</p>
+        <p>Made with
+            <3 by <a href="mailto:juliana.aboud@gmail.com" target="_blank">Juliana Aboud </a> 2017 </p>
+    </footer>
+    <!--Fim do Footer-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script>
-        var $doc = $('html, body');
-        $('a').click(function () {
-            $doc.animate({
-                scrollTop: $($.attr(this, 'href')).offset().top
-            }, 1000);
-            return false;
+    <!--Referências Bootstrap / Jquery-->
 
-        });
-    </script>
     <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
     <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="assets/js/navbar-animation-fix.js"></script>
